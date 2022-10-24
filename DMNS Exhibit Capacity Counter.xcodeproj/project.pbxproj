@@ -3,20 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C793CAEA5D8560E39A94543 /* Pods_DMNS_Exhibit_Capacity_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02F29F43733F50F18D9683 /* Pods_DMNS_Exhibit_Capacity_Counter.framework */; };
 		8F153CA524CEB8CC00DBDEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F153CA424CEB8CC00DBDEB7 /* AppDelegate.swift */; };
 		8F153CA724CEB8CC00DBDEB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F153CA624CEB8CC00DBDEB7 /* SceneDelegate.swift */; };
 		8F153CA924CEB8CC00DBDEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F153CA824CEB8CC00DBDEB7 /* ViewController.swift */; };
 		8F153CAC24CEB8CC00DBDEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F153CAA24CEB8CC00DBDEB7 /* Main.storyboard */; };
 		8F153CAE24CEB8D000DBDEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F153CAD24CEB8D000DBDEB7 /* Assets.xcassets */; };
 		8F153CB124CEB8D000DBDEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F153CAF24CEB8D000DBDEB7 /* LaunchScreen.storyboard */; };
+		8F1AD89024E2567A000F1633 /* Groupinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AD88F24E2567A000F1633 /* Groupinfo.swift */; };
+		8F1AD89224E256B0000F1633 /* qTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AD89124E256B0000F1633 /* qTracker.swift */; };
+		8F561C8724CFE4E0003DA8B6 /* CapHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F561C8624CFE4E0003DA8B6 /* CapHits.swift */; };
+		8F561C8924CFE524003DA8B6 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F561C8824CFE524003DA8B6 /* Flow.swift */; };
+		8F561C8B24CFE548003DA8B6 /* Traffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F561C8A24CFE548003DA8B6 /* Traffic.swift */; };
+		8F561C8D24CFE571003DA8B6 /* Exhibit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F561C8C24CFE571003DA8B6 /* Exhibit.swift */; };
+		8F561C8F24CFE5A1003DA8B6 /* TheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F561C8E24CFE5A1003DA8B6 /* TheDay.swift */; };
+		8F8A33E424CECF9E00D1717A /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A33E324CECF9E00D1717A /* CountViewController.swift */; };
+		8FEE8AB024CFD6CD00055D74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE8AAF24CFD6CD00055D74 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F153CA124CEB8CC00DBDEB7 /* DMNS Exhibit Capacity Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMNS Exhibit Capacity Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		703F6227BB7559F7AAA51F69 /* Pods-DMNS Exhibit Capacity Counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMNS Exhibit Capacity Counter.release.xcconfig"; path = "Target Support Files/Pods-DMNS Exhibit Capacity Counter/Pods-DMNS Exhibit Capacity Counter.release.xcconfig"; sourceTree = "<group>"; };
+		8E02F29F43733F50F18D9683 /* Pods_DMNS_Exhibit_Capacity_Counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMNS_Exhibit_Capacity_Counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F153CA124CEB8CC00DBDEB7 /* DMNS Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMNS Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F153CA424CEB8CC00DBDEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F153CA624CEB8CC00DBDEB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8F153CA824CEB8CC00DBDEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,16 @@
 		8F153CAD24CEB8D000DBDEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F153CB024CEB8D000DBDEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F153CB224CEB8D000DBDEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1AD88F24E2567A000F1633 /* Groupinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groupinfo.swift; sourceTree = "<group>"; };
+		8F1AD89124E256B0000F1633 /* qTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qTracker.swift; sourceTree = "<group>"; };
+		8F561C8624CFE4E0003DA8B6 /* CapHits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapHits.swift; sourceTree = "<group>"; };
+		8F561C8824CFE524003DA8B6 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		8F561C8A24CFE548003DA8B6 /* Traffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traffic.swift; sourceTree = "<group>"; };
+		8F561C8C24CFE571003DA8B6 /* Exhibit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exhibit.swift; sourceTree = "<group>"; };
+		8F561C8E24CFE5A1003DA8B6 /* TheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDay.swift; sourceTree = "<group>"; };
+		8F8A33E324CECF9E00D1717A /* CountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewController.swift; sourceTree = "<group>"; };
+		8FEE8AAF24CFD6CD00055D74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D958E5DB5965DFC5680605BB /* Pods-DMNS Exhibit Capacity Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMNS Exhibit Capacity Counter.debug.xcconfig"; path = "Target Support Files/Pods-DMNS Exhibit Capacity Counter/Pods-DMNS Exhibit Capacity Counter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +53,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C793CAEA5D8560E39A94543 /* Pods_DMNS_Exhibit_Capacity_Counter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4233ED9F2D09CD27B7DC8F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E02F29F43733F50F18D9683 /* Pods_DMNS_Exhibit_Capacity_Counter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C77287CE929351B9E315B95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D958E5DB5965DFC5680605BB /* Pods-DMNS Exhibit Capacity Counter.debug.xcconfig */,
+				703F6227BB7559F7AAA51F69 /* Pods-DMNS Exhibit Capacity Counter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8F153C9824CEB8CC00DBDEB7 = {
 			isa = PBXGroup;
 			children = (
 				8F153CA324CEB8CC00DBDEB7 /* DMNS Exhibit Capacity Counter */,
 				8F153CA224CEB8CC00DBDEB7 /* Products */,
+				7C77287CE929351B9E315B95 /* Pods */,
+				4233ED9F2D09CD27B7DC8F16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8F153CA224CEB8CC00DBDEB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F153CA124CEB8CC00DBDEB7 /* DMNS Exhibit Capacity Counter.app */,
+				8F153CA124CEB8CC00DBDEB7 /* DMNS Counter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +100,20 @@
 			children = (
 				8F153CA424CEB8CC00DBDEB7 /* AppDelegate.swift */,
 				8F153CA624CEB8CC00DBDEB7 /* SceneDelegate.swift */,
+				8F153CAD24CEB8D000DBDEB7 /* Assets.xcassets */,
 				8F153CA824CEB8CC00DBDEB7 /* ViewController.swift */,
 				8F153CAA24CEB8CC00DBDEB7 /* Main.storyboard */,
-				8F153CAD24CEB8D000DBDEB7 /* Assets.xcassets */,
+				8FEE8AAF24CFD6CD00055D74 /* GoogleService-Info.plist */,
 				8F153CAF24CEB8D000DBDEB7 /* LaunchScreen.storyboard */,
 				8F153CB224CEB8D000DBDEB7 /* Info.plist */,
+				8F8A33E324CECF9E00D1717A /* CountViewController.swift */,
+				8F561C8624CFE4E0003DA8B6 /* CapHits.swift */,
+				8F561C8824CFE524003DA8B6 /* Flow.swift */,
+				8F561C8A24CFE548003DA8B6 /* Traffic.swift */,
+				8F561C8C24CFE571003DA8B6 /* Exhibit.swift */,
+				8F561C8E24CFE5A1003DA8B6 /* TheDay.swift */,
+				8F1AD88F24E2567A000F1633 /* Groupinfo.swift */,
+				8F1AD89124E256B0000F1633 /* qTracker.swift */,
 			);
 			path = "DMNS Exhibit Capacity Counter";
 			sourceTree = "<group>";
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F153CB524CEB8D000DBDEB7 /* Build configuration list for PBXNativeTarget "DMNS Exhibit Capacity Counter" */;
 			buildPhases = (
+				2107752C5851CB7CB8BD8465 /* [CP] Check Pods Manifest.lock */,
 				8F153C9D24CEB8CC00DBDEB7 /* Sources */,
 				8F153C9E24CEB8CC00DBDEB7 /* Frameworks */,
 				8F153C9F24CEB8CC00DBDEB7 /* Resources */,
+				5AFCB95D467F45EF4372BBB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +137,7 @@
 			);
 			name = "DMNS Exhibit Capacity Counter";
 			productName = "DMNS Exhibit Capacity Counter";
-			productReference = 8F153CA124CEB8CC00DBDEB7 /* DMNS Exhibit Capacity Counter.app */;
+			productReference = 8F153CA124CEB8CC00DBDEB7 /* DMNS Counter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F153CB124CEB8D000DBDEB7 /* LaunchScreen.storyboard in Resources */,
+				8FEE8AB024CFD6CD00055D74 /* GoogleService-Info.plist in Resources */,
 				8F153CAE24CEB8D000DBDEB7 /* Assets.xcassets in Resources */,
 				8F153CAC24CEB8CC00DBDEB7 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +187,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2107752C5851CB7CB8BD8465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMNS Exhibit Capacity Counter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AFCB95D467F45EF4372BBB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMNS Exhibit Capacity Counter/Pods-DMNS Exhibit Capacity Counter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMNS Exhibit Capacity Counter/Pods-DMNS Exhibit Capacity Counter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMNS Exhibit Capacity Counter/Pods-DMNS Exhibit Capacity Counter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F153C9D24CEB8CC00DBDEB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8A33E424CECF9E00D1717A /* CountViewController.swift in Sources */,
 				8F153CA924CEB8CC00DBDEB7 /* ViewController.swift in Sources */,
+				8F561C8724CFE4E0003DA8B6 /* CapHits.swift in Sources */,
+				8F561C8924CFE524003DA8B6 /* Flow.swift in Sources */,
+				8F561C8B24CFE548003DA8B6 /* Traffic.swift in Sources */,
+				8F1AD89024E2567A000F1633 /* Groupinfo.swift in Sources */,
+				8F1AD89224E256B0000F1633 /* qTracker.swift in Sources */,
+				8F561C8D24CFE571003DA8B6 /* Exhibit.swift in Sources */,
 				8F153CA524CEB8CC00DBDEB7 /* AppDelegate.swift in Sources */,
 				8F153CA724CEB8CC00DBDEB7 /* SceneDelegate.swift in Sources */,
+				8F561C8F24CFE5A1003DA8B6 /* TheDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,37 +386,41 @@
 		};
 		8F153CB624CEB8D000DBDEB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D958E5DB5965DFC5680605BB /* Pods-DMNS Exhibit Capacity Counter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LG5CCYAM9;
 				INFOPLIST_FILE = "DMNS Exhibit Capacity Counter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Lavan.DMNS-Exhibit-Capacity-Counter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DMNS Counter";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		8F153CB724CEB8D000DBDEB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703F6227BB7559F7AAA51F69 /* Pods-DMNS Exhibit Capacity Counter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LG5CCYAM9;
 				INFOPLIST_FILE = "DMNS Exhibit Capacity Counter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Lavan.DMNS-Exhibit-Capacity-Counter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DMNS Counter";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
